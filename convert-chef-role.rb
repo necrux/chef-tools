@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 # This script allows you to convert a Chef role to a JSON object.
+# This is useful if you need to test a role with Kitchen.
 
 require 'slop'
 require 'chef'
